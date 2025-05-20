@@ -12,3 +12,5 @@
 * [PEP-0](https://peps.python.org/)
 * [PEP-8: Python Style Guide](https://peps.python.org/pep-0008/)
 * [PEP-20: ZEN of Python](https://peps.python.org/pep-0020/)
+* Strings
+** [Lexical Analysis](https://docs.python.org/3.11/reference/lexical_analysis.html)
