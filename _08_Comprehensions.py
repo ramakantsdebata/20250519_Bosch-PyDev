@@ -20,10 +20,28 @@ print(type(dt1), dt1)
 
 ## Public members for a type
 
-obj = 10
+obj = complex(2, 3)
 public_members = [member         for member in dir(obj)       if not member.startswith("_")]
-print(public_members)
+print(len(public_members), public_members)
 
 ## Public methods
-public_methods = [member         for member in dir(obj)       if not member.startswith("_")]
-print(public_methods)
+# print("-->>", getattr(int, 'numerator'))
+public_methods = [member         for member in dir(obj)       if not member.startswith("_") and callable(getattr(obj, member))]
+print(len(public_methods), public_methods)
+
+
+
+# foo = 10
+
+
+# def foo():
+#     print(">> foo")
+
+# print(type(foo))
+
+# print(dir(foo))
+
+# foo()
+# foo.__call__()
+
+# print(callable(foo))
