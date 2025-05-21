@@ -7,6 +7,11 @@
 ## Snippets
 * git clone <repo-link>  --> To clone a repo (repo-link should be the HTTPS link, NOT SSH)
 * git pull origin main -- > To get the latest commits from the remote repo
+* git add <file(s)>  --> Stage a specific file or a few files
+* git add <folder>   --> Stage all files in a specific folder and its subfolders
+* git commit -m "<commit-message>"   --> Commits the staged changes to the local repo
+* git push <remote-repo> <branch> --> Push my commited changes on specific branch to a remote repo
+* git push origin main --> Push my commited changes on `main` to `origin (github at the moment)`
 
 ## Links
 * [PEP-0](https://peps.python.org/)
