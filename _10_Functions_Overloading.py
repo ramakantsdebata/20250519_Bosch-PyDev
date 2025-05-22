@@ -29,6 +29,8 @@
 # 2. Activate the environment           source .venv-trng/Scripts/activate  OR   .venv-trng/Scripts/activate.bat
 #                                       pip list 
 # 3. Install specific modules           pip install multipledispatch
+# 3. Install requirement file           pip install -r requirements.txt
+# 3. Create requirement file            pip freeze > requirements.txt
 # 4. Work with proj
 # 5. Deactivate the environment         deactivate
 
