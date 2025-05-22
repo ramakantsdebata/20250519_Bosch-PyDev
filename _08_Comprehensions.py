@@ -45,3 +45,8 @@ print(len(public_methods), public_methods)
 # foo.__call__()
 
 # print(callable(foo))
+
+
+
+l2 = [num**2          for num in range(10)]
+print(l1, l2, sep="\n")

@@ -44,9 +44,23 @@ print("x: ", p2[0], "   y: ", p2[1])
 print("x: ", p2.x, "   y: ", p2.y)
 
 
-Student = namedtuple("Student_cls", "roll name std")
+Student = namedtuple("Student_ntup", "roll name std")
 s1 = Student(1, "Pravin", 5)
 s2 = Student(2, "Abhijeet", 16)
 
 print(s1)
 print(s2.roll, s2.name, s2.std)
+
+
+lst = list(s1)
+print(lst)
+
+tp = (1, "Pravin", 5)
+lst = list(tp)
+print(lst)
+
+dt = {"roll": 1, "name": "Pravin", "std": 5}
+lst = list(dt)
+print(lst)
+
+print(type(s1))
