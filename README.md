@@ -24,6 +24,7 @@
 
 ## Operational
 * [Training Feedback](https://forms.gle/AvvhYbZv1mjkN7VC8)
+* [Post training test](https://forms.gle/Uh69cFQ7XaxPsDDk6)
 
 ## Contact
 * ramakant.s.debata@gmail.com
