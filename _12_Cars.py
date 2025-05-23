@@ -3,7 +3,7 @@ from random import randint
 
 class Car:
     _count = 0
-    _car = None
+    # _car = None
 
     def __init__(self, make, model, year, color):
         self._make = make
@@ -28,12 +28,12 @@ class Car:
             self.__bRunning = False
             print("Car stopped")
 
-    @classmethod
-    def GetCar(cls):
-        if cls._car:
-            return cls._car
-        else:
-            cls._car = Car("", "", 1, "")
+    # @classmethod
+    # def GetCar(cls):
+    #     if cls._car:
+    #         return cls._car
+    #     else:
+    #         cls._car = Car("", "", 1, "")
 
     @classmethod
     def GetCarCount(cls):
@@ -119,12 +119,13 @@ def GenerateCars():
 
 
 def Test3():
-    c1 = Car.GetCar()
+    c1 = Car("Honda", "Accord", 2024, "White")
+    print(c1)
 
-def Main():
-    # Test1()
+if __name__ == "__main__":
+    Test1()
     Test2()
-    # print(Car.GetCarCount())
+    print(Car.GetCarCount())
     Test3()
 
-Main()
+print(f"{__name__ = }")

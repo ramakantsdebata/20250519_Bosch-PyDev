@@ -20,6 +20,7 @@
 * Strings
     * [Lexical Analysis](https://docs.python.org/3.11/reference/lexical_analysis.html)
 * [Exception Hierarchy](https://docs.python.org/3.11/library/exceptions.html#exception-hierarchy)
+* [Open method](https://docs.python.org/3/library/functions.html#open)
 
 ## Operational
 * [Training Feedback](https://forms.gle/AvvhYbZv1mjkN7VC8)
