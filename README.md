@@ -19,6 +19,7 @@
 * [PEP-20: ZEN of Python](https://peps.python.org/pep-0020/)
 * Strings
     * [Lexical Analysis](https://docs.python.org/3.11/reference/lexical_analysis.html)
+* [Exception Hierarchy](https://docs.python.org/3.11/library/exceptions.html#exception-hierarchy)
 
 ## Operational
 * [Training Feedback](https://forms.gle/AvvhYbZv1mjkN7VC8)
